@@ -1,0 +1,6 @@
+[package]
+name = "pimento"
+version = "0.1.0"
+authors = ["Chris Fung <aergonaut@gmail.com>"]
+
+[dependencies]
