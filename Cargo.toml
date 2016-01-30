@@ -3,4 +3,34 @@ name = "pimento"
 version = "0.1.0"
 authors = ["Chris Fung <aergonaut@gmail.com>"]
 
+[lib]
+name = "pimento"
+path = "src/pimento/lib.rs"
+
+[[bin]]
+name = "pimento"
+test = false
+doc = false
+
 [dependencies]
+iron = "0.2.6"
+
+[dependencies.urlencoded]
+
+git = "https://github.com/iron/urlencoded.git"
+
+[dependencies.logger]
+
+git = "https://github.com/iron/logger.git"
+
+[dependencies.router]
+
+git = "https://github.com/iron/router.git"
+
+[dependencies.mount]
+
+git = "https://github.com/iron/mount.git"
+
+[dependencies.bodyparser]
+
+git = "https://github.com/iron/body-parser.git"
